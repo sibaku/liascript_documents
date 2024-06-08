@@ -880,6 +880,8 @@ $$
 \binom{n}{k} = \frac{n!}{k!(n-k)!}
 $$
 
+You read this as "n over k".
+
 This formula is generally most useful for proofs, less so for computation.
 While you could implement it directly using the factorial formula, this will quickly break due to the extreme growth of the factorial, which will overflow integer variables quickly. Using floats might be tempting, but they will become imprecise pretty quickly and give you wrong results.
 
